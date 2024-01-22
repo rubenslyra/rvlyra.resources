@@ -1,0 +1,261 @@
+<!-- Mensagens.pt-BR.resx -->
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- Saudações -->
+  <data name="BoasVindas" xml:space="preserve">
+    <value>Bem-vindo ao nosso sistema!</value>
+  </data>
+
+  <data name="SaudacaoManha" xml:space="preserve">
+    <value>Bom dia!</value>
+  </data>
+
+  <data name="SaudacaoTarde" xml:space="preserve">
+    <value>Boa tarde!</value>
+  </data>
+
+  <data name="SaudacaoNoite" xml:space="preserve">
+    <value>Boa noite!</value>
+  </data>
+
+  <data name="BoaSemana" xml:space="preserve">
+    <value>Que você tenha uma ótima semana!</value>
+  </data>
+
+  <data name="BoaViagem" xml:space="preserve">
+    <value>Boa viagem! Tenha uma jornada segura e agradável.</value>
+  </data>
+
+  <data name="BoaFesta" xml:space="preserve">
+    <value>Divirta-se na festa! 🎉</value>
+  </data>
+
+  <data name="BoaSorte" xml:space="preserve">
+    <value>Desejamos boa sorte em seus empreendimentos!</value>
+  </data>
+
+  <data name="BoaProva" xml:space="preserve">
+    <value>Boa prova! Você vai arrasar.</value>
+  </data>
+
+  <data name="BoaLeitura" xml:space="preserve">
+    <value>Excelente leitura! Descubra mundos incríveis nos livros.</value>
+  </data>
+
+  <!-- Erros Amigáveis -->
+  <data name="ErroBusca" xml:space="preserve">
+    <value>Não foi possível encontrar resultados para a sua busca.</value>
+  </data>
+
+  <data name="PermissaoNegada" xml:space="preserve">
+    <value>Você não tem permissão para acessar este recurso.</value>
+  </data>
+
+  <data name="NaoEncontrado" xml:space="preserve">
+    <value>O item solicitado não foi encontrado.</value>
+  </data>
+
+  <data name="RemovidoCompletamente" xml:space="preserve">
+    <value>O item foi removido completamente.</value>
+  </data>
+
+  <data name="AgendamentoRemocao" xml:space="preserve">
+    <value>Agendado para remoção definitiva. Esta ação é irreversível.</value>
+  </data>
+
+  <data name="ErroConexao" xml:space="preserve">
+    <value>Erro de conexão. Verifique sua conexão com a internet.</value>
+  </data>
+
+  <data name="ErroFormulario" xml:space="preserve">
+    <value>Por favor, corrija os erros no formulário antes de enviar.</value>
+  </data>
+
+  <data name="ErroAutenticacao" xml:space="preserve">
+    <value>Erro de autenticação. Verifique seu nome de usuário e senha.</value>
+  </data>
+
+  <data name="ErroServidor" xml:space="preserve">
+    <value>Desculpe, ocorreu um erro no servidor. Tente novamente mais tarde.</value>
+  </data>
+
+  <data name="ErroInesperado" xml:space="preserve">
+    <value>Ops! Algo inesperado aconteceu. Pedimos desculpas pelo transtorno.</value>
+  </data>
+
+  <!-- Informações Monetárias -->
+  <data name="SaldoDisponivel" xml:space="preserve">
+    <value>Saldo disponível: R$ {0}</value>
+  </data>
+
+  <data name="TransacaoAprovada" xml:space="preserve">
+    <value>Transação aprovada. Valor: R$ {0}</value>
+  </data>
+
+  <data name="FaturaVencida" xml:space="preserve">
+    <value>Sua fatura está vencida. Valor devido: R$ {0}</value>
+  </data>
+
+  <data name="LimiteCredito" xml:space="preserve">
+    <value>Seu limite de crédito é de R$ {0}. Aproveite com responsabilidade!</value>
+  </data>
+
+  <data name="ContaBloqueada" xml:space="preserve">
+    <value>Sua conta foi temporariamente bloqueada por motivos de segurança.</value>
+  </data>
+
+  <data name="InvestimentoRendimento" xml:space="preserve">
+    <value>Seu investimento rendeu R$ {0} de lucro este mês.</value>
+  </data>
+
+  <data name="SalarioCreditado" xml:space="preserve">
+    <value>Seu salário foi creditado. Valor: R$ {0}</value>
+  </data>
+
+  <data name="CompraParcelada" xml:space="preserve">
+    <value>Detalhes da compra parcelada: {0} parcelas de R$ {1}</value>
+  </data>
+
+  <!-- Informações Geográficas -->
+  <data name="LocalizacaoAtual" xml:space="preserve">
+    <value>Sua localização atual: Latitude {0}, Longitude {1}</value>
+  </data>
+
+  <data name="CidadeNatal" xml:space="preserve">
+    <value>Sua cidade natal é {0}.</value>
+  </data>
+
+  <data name="DestinoViagem" xml:space="preserve">
+    <value>Seu destino de viagem é {0}.</value>
+  </data>
+
+  <data name="NovoEndereco" xml:space="preserve">
+    <value>Novo endereço cadastrado: {0}</value>
+  </data>
+
+  <data name="LocalEvento" xml:space="preserve">
+    <value>O evento acontecerá em {0}.</value>
+  </data>
+
+  <data name="ExplorarCidade" xml:space="preserve">
+    <value>Explore os encantos da cidade de {0}.</value>
+  </data>
+
+  <data name="OrigemNacionalidade" xml:space="preserve">
+    <value>Sua nacionalidade de origem é {0}.</value>
+  </data>
+
+  <!-- Informações Comerciais -->
+  <data name="NovoPedido" xml:space="preserve">
+    <value>Novo pedido recebido. Número do pedido: {0}</value>
+  </data>
+
+  <data name="DescontoPromocional" xml:space="preserve">
+    <value>Você recebeu um desconto promocional de {0}% em sua próxima compra.</value>
+  </data>
+
+  <data name="ProdutoEmDestaque" xml:space="preserve">
+    <value>Produto em destaque: {0}. Aproveite a promoção!</value>
+  </data>
+
+  <data name="LancamentoNovoProduto" xml:space="preserve">
+    <value>Lançamento do novo produto: {0}. Descubra as novidades!</value>
+  </data>
+
+  <data name="PromocaoAniversario" xml:space="preserve">
+    <value>Em comemoração ao nosso aniversário, temos promoções exclusivas!</value>
+  </data>
+
+  <data name="ParceriaSucesso" xml:space="preserve">
+    <value>Estamos felizes em anunciar nossa parceria de sucesso com {0}.</value>
+  </data>
+
+  <data name="FeedbackCliente" xml:space="preserve">
+    <value>Agradecemos pelo seu feedback valioso. Continuaremos melhorando!</value>
+  </data>
+
+  <!-- Outras Mensagens -->
+  <data name="EventoCancelado" xml:space="preserve">
+    <value>Infelizmente, o evento foi cancelado devido a circunstâncias imprevistas.</value>
+  </data>
+
+  <data name="AtualizacaoDisponivel" xml:space="preserve">
+    <value>Uma nova atualização está disponível. Deseja instalá-la agora?</value>
+  </data>
+
+  <data name="SenhaExpirada" xml:space="preserve">
+    <value>Sua senha expirou. Por favor, crie uma nova senha.</value>
+  </data>
+
+  <data name="AgradecimentoDoacao" xml:space="preserve">
+    <value>Agradecemos por sua generosa doação. Cada contribuição faz a diferença!</value>
+  </data>
+
+  <data name="ConquistaDesbloqueada" xml:space="preserve">
+    <value>Você desbloqueou uma nova conquista! Parabéns!</value>
+  </data>
+
+  <!-- Mais 15 Outras Mensagens -->
+
+<!-- Outras Mensagens -->
+  <data name="Despedida" xml:space="preserve">
+    <value>Obrigado por utilizar nosso serviço. Até logo!</value>
+  </data>
+
+  <data name="ConviteEvento" xml:space="preserve">
+    <value>Você está convidado para o nosso próximo evento em {0}.</value>
+  </data>
+
+  <data name="AvisoTempo" xml:space="preserve">
+    <value>Previsão do tempo para hoje: {0}. Prepare-se!</value>
+  </data>
+
+  <data name="AnuncioImportante" xml:space="preserve">
+    <value>Anúncio importante: {0}. Confira os detalhes.</value>
+  </data>
+
+  <data name="InformacaoConfidencial" xml:space="preserve">
+    <value>Esta é uma informação confidencial. Apenas para seus olhos.</value>
+  </data>
+
+  <data name="PromocaoRelampago" xml:space="preserve">
+    <value>Promoção relâmpago! Descontos imperdíveis por tempo limitado.</value>
+  </data>
+
+  <data name="LembreteCompromisso" xml:space="preserve">
+    <value>Lembrete: Seu compromisso está marcado para {0}.</value>
+  </data>
+
+  <data name="ElogioDesempenho" xml:space="preserve">
+    <value>Parabéns pelo excelente desempenho. Continue assim!</value>
+  </data>
+
+  <data name="AtualizacaoPolitica" xml:space="preserve">
+    <value>Atualização na política de privacidade. Leia antes de continuar.</value>
+  </data>
+
+  <data name="BoasFestas" xml:space="preserve">
+    <value>Boas festas! Que este seja um período cheio de alegria e celebração.</value>
+  </data>
+
+  <data name="MensagemMotivacional" xml:space="preserve">
+    <value>Uma pequena dose de motivação para o seu dia: {0}</value>
+  </data>
+
+  <data name="AvisoSeguranca" xml:space="preserve">
+    <value>Aviso de segurança: Mantenha suas credenciais seguras. Não compartilhe com ninguém.</value>
+  </data>
+
+  <data name="AgradecimentoParticipacao" xml:space="preserve">
+    <value>Agradecemos pela sua participação em {0}. Esperamos vê-lo novamente em breve!</value>
+  </data>
+
+  <data name="InformacaoImportante" xml:space="preserve">
+    <value>Informação importante: {0}. Leia com atenção.</value>
+  </data>
+
+  <data name="PromessaQualidade" xml:space="preserve">
+    <value>Nossa promessa é oferecer qualidade excepcional em cada interação.</value>
+  </data>
+</root>
+
