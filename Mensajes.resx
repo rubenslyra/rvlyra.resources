@@ -1,0 +1,201 @@
+<!-- File: Resources/es-ES/Messages.resx -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Saludos -->
+  <data name="Bienvenida" xml:space="preserve">
+    <value>Bienvenido/a a nuestro sistema.</value>
+  </data>
+
+  <data name="BuenosDias" xml:space="preserve">
+    <value>Buenos días.</value>
+  </data>
+
+  <data name="BuenasTardes" xml:space="preserve">
+    <value>Buenas tardes.</value>
+  </data>
+
+  <data name="BuenasNoches" xml:space="preserve">
+    <value>Buenas noches.</value>
+  </data>
+
+  <!-- Errores Amigables -->
+  <data name="ErrorBusqueda" xml:space="preserve">
+    <value>No se pudieron encontrar resultados para su búsqueda.</value>
+  </data>
+
+  <data name="PermisoDenegado" xml:space="preserve">
+    <value>No tiene permiso para acceder a este recurso.</value>
+  </data>
+
+  <data name="NoEncontrado" xml:space="preserve">
+    <value>No se encontró el elemento solicitado.</value>
+  </data>
+
+  <data name="RemovidoCompletamente" xml:space="preserve">
+    <value>El elemento ha sido eliminado por completo.</value>
+  </data>
+
+  <data name="AgendamientoRemocion" xml:space="preserve">
+    <value>Agendado para eliminación definitiva. Esta acción es irreversible.</value>
+  </data>
+
+  <!-- Información Monetaria -->
+  <data name="SaldoDisponible" xml:space="preserve">
+    <value>Saldo disponible: $ {0}</value>
+  </data>
+
+  <data name="TransaccionAprobada" xml:space="preserve">
+    <value>Transacción aprobada. Monto: $ {0}</value>
+  </data>
+
+  <data name="FacturaVencida" xml:space="preserve">
+    <value>Su factura está vencida. Monto adeudado: $ {0}</value>
+  </data>
+
+  <!-- Información Geográfica -->
+  <data name="UbicacionActual" xml:space="preserve">
+    <value>Su ubicación actual: Latitud {0}, Longitud {1}</value>
+  </data>
+
+  <data name="CiudadNatal" xml:space="preserve">
+    <value>Su ciudad natal es {0}.</value>
+  </data>
+
+  <!-- Información Comercial -->
+  <data name="NuevoPedido" xml:space="preserve">
+    <value>Nuevo pedido recibido. Número de pedido: {0}</value>
+  </data>
+
+  <data name="DescuentoPromocional" xml:space="preserve">
+    <value>Ha recibido un descuento promocional del {0}% en su próxima compra.</value>
+  </data>
+
+  <!-- 60 Saludos Adicionales -->
+  <data name="TenUnaGranSemana" xml:space="preserve">
+    <value>¡Que tengas una gran semana!</value>
+  </data>
+
+  <data name="ViajeSeguro" xml:space="preserve">
+    <value>¡Viaje seguro! Que tengas un viaje seguro y agradable.</value>
+  </data>
+
+  <data name="DisfrutaLaFiesta" xml:space="preserve">
+    <value>¡Diviértete en la fiesta! 🎉</value>
+  </data>
+
+  <data name="BuenaSuerte" xml:space="preserve">
+    <value>Te deseamos buena suerte en tus emprendimientos.</value>
+  </data>
+
+  <data name="BuenaPrueba" xml:space="preserve">
+    <value>¡Buena prueba! Vas a sobresalir.</value>
+  </data>
+
+  <data name="BuenaLectura" xml:space="preserve">
+    <value>Excelente lectura. Descubre mundos increíbles en los libros.</value>
+  </data>
+
+  <!-- 20 Errores Amigables Adicionales -->
+  <data name="ErrorConexion" xml:space="preserve">
+    <value>Error de conexión. Verifica tu conexión a internet.</value>
+  </data>
+
+  <data name="ErrorFormulario" xml:space="preserve">
+    <value>Por favor, corrige los errores en el formulario antes de enviarlo.</value>
+  </data>
+
+  <data name="ErrorAutenticacion" xml:space="preserve">
+    <value>Error de autenticación. Verifica tu nombre de usuario y contraseña.</value>
+  </data>
+
+  <data name="ErrorServidor" xml:space="preserve">
+    <value>Lo sentimos, ocurrió un error en el servidor. Inténtalo de nuevo más tarde.</value>
+  </data>
+
+  <data name="ErrorInesperado" xml:space="preserve">
+    <value>¡Ops! Algo inesperado sucedió. Pedimos disculpas por las molestias.</value>
+  </data>
+
+  <!-- 20 Información Monetaria Adicional -->
+  <data name="LimiteCredito" xml:space="preserve">
+    <value>Tu límite de crédito es de $ {0}. ¡Disfrútalo con responsabilidad!</value>
+  </data>
+
+  <data name="CuentaBloqueada" xml:space="preserve">
+    <value>Tu cuenta ha sido bloqueada temporalmente por razones de seguridad.</value>
+  </data>
+
+  <data name="RendimientoInversion" xml:space="preserve">
+    <value>Tu inversión ha rendido $ {0} de ganancia este mes.</value>
+  </data>
+
+  <data name="SalarioAcreditado" xml:space="preserve">
+    <value>Se acreditó tu salario. Monto: $ {0}</value>
+  </data>
+
+  <data name="CompraConCuotas" xml:space="preserve">
+    <value>Detalles de la compra con cuotas: {0} cuotas de $ {1}</value>
+  </data>
+
+  <!-- 20 Información Geográfica Adicional -->
+  <data name="DestinoViaje" xml:space="preserve">
+    <value>Tu destino de viaje es {0}.</value>
+  </data>
+
+  <data name="NuevoDomicilio" xml:space="preserve">
+    <value>Nuevo domicilio registrado: {0}</value>
+  </data>
+
+  <data name="UbicacionEvento" xml:space="preserve">
+    <value>El evento tendrá lugar en {0}.</value>
+  </data>
+
+  <data name="ExplorarCiudad" xml:space="preserve">
+    <value>Explora los encantos de la ciudad de {0}.</value>
+  </data>
+
+  <data name="OrigenNacionalidad" xml:space="preserve">
+    <value>Tu nacionalidad de origen es {0}.</value>
+  </data>
+
+  <!-- 20 Información Comercial Adicional -->
+  <data name="ProductoDestacado" xml:space="preserve">
+    <value>Producto destacado: {0}. ¡Aprovecha la promoción!</value>
+  </data>
+
+  <data name="LanzamientoNuevoProducto" xml:space="preserve">
+    <value>Lanzamiento del nuevo producto: {0}. Descubre las novedades.</value>
+  </data>
+
+  <data name="PromocionAniversario" xml:space="preserve">
+    <value>En celebración de nuestro aniversario, ¡tenemos promociones exclusivas!</value>
+  </data>
+
+  <data name="ExitoColaboracion" xml:space="preserve">
+    <value>Estamos felices de anunciar nuestra colaboración exitosa con {0}.</value>
+  </data>
+
+  <data name="ComentarioCliente" xml:space="preserve">
+    <value>Agradecemos por tu valioso comentario. ¡Seguiremos mejorando!</value>
+  </data>
+
+  <!-- 20 Otras Mensajes -->
+  <data name="EventoCancelado" xml:space="preserve">
+    <value>Lamentablemente, el evento se canceló debido a circunstancias imprevistas.</value>
+  </data>
+
+  <data name="ActualizacionDisponible" xml:space="preserve">
+    <value>Hay una nueva actualización disponible. ¿Te gustaría instalarla ahora?</value>
+  </data>
+
+  <data name="ContraseñaExpirada" xml:space="preserve">
+    <value>Tu contraseña ha expirado. Por favor, crea una nueva contraseña.</value>
+  </data>
+
+  <data name="AgradecimientoDonacion" xml:space="preserve">
+    <value>Agradecemos tu generosa donación. ¡Cada contribución marca la diferencia!</value>
+  </data>
+
+  <data name="LogroDesbloqueado" xml:space="preserve">
+    <value>¡Has desbloqueado un nuevo logro! ¡Felicidades!</value>
+  </data>
+</root>
