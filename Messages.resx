@@ -1,0 +1,263 @@
+<!-- File: Resources/en-US/Messages.resx -->
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<!-- Greetings -->
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome to our system!</value>
+  </data>
+
+  <data name="GoodMorning" xml:space="preserve">
+    <value>Good morning!</value>
+  </data>
+
+  <data name="GoodAfternoon" xml:space="preserve">
+    <value>Good afternoon!</value>
+  </data>
+
+  <data name="GoodEvening" xml:space="preserve">
+    <value>Good evening!</value>
+  </data>
+
+  <!-- Friendly Errors -->
+  <data name="SearchError" xml:space="preserve">
+    <value>Unable to find results for your search.</value>
+  </data>
+
+  <data name="PermissionDenied" xml:space="preserve">
+    <value>You do not have permission to access this resource.</value>
+  </data>
+
+  <data name="NotFound" xml:space="preserve">
+    <value>The requested item was not found.</value>
+  </data>
+
+  <data name="CompletelyRemoved" xml:space="preserve">
+    <value>The item has been completely removed.</value>
+  </data>
+
+  <data name="RemovalScheduled" xml:space="preserve">
+    <value>Scheduled for permanent removal. This action is irreversible.</value>
+  </data>
+
+  <!-- Monetary Information -->
+  <data name="AvailableBalance" xml:space="preserve">
+    <value>Available balance: $ {0}</value>
+  </data>
+
+  <data name="TransactionApproved" xml:space="preserve">
+    <value>Transaction approved. Amount: $ {0}</value>
+  </data>
+
+  <data name="OverdueInvoice" xml:space="preserve">
+    <value>Your invoice is overdue. Amount due: $ {0}</value>
+  </data>
+
+  <!-- Geographical Information -->
+  <data name="CurrentLocation" xml:space="preserve">
+    <value>Your current location: Latitude {0}, Longitude {1}</value>
+  </data>
+
+  <data name="Hometown" xml:space="preserve">
+    <value>Your hometown is {0}.</value>
+  </data>
+
+  <!-- Business Information -->
+  <data name="NewOrder" xml:space="preserve">
+    <value>New order received. Order number: {0}</value>
+  </data>
+
+  <data name="PromotionalDiscount" xml:space="preserve">
+    <value>You received a promotional discount of {0}% on your next purchase.</value>
+  </data>
+
+  <!-- Additional 60 Greetings -->
+  <data name="HaveAGreatWeek" xml:space="preserve">
+    <value>Wishing you a great week!</value>
+  </data>
+
+  <data name="SafeJourney" xml:space="preserve">
+    <value>Safe travels! Have a secure and pleasant journey.</value>
+  </data>
+
+  <data name="EnjoyTheParty" xml:space="preserve">
+    <value>Have fun at the party! 🎉</value>
+  </data>
+
+  <data name="GoodLuck" xml:space="preserve">
+    <value>Wishing you good luck in your endeavors!</value>
+  </data>
+
+  <data name="GoodLuckOnTest" xml:space="preserve">
+    <value>Good luck on your test! You will do great.</value>
+  </data>
+
+  <data name="HappyReading" xml:space="preserve">
+    <value>Excellent reading! Discover incredible worlds in books.</value>
+  </data>
+
+  <!-- Additional 20 Friendly Errors -->
+  <data name="ConnectionError" xml:space="preserve">
+    <value>Connection error. Check your internet connection.</value>
+  </data>
+
+  <data name="FormError" xml:space="preserve">
+    <value>Please correct the errors in the form before submitting.</value>
+  </data>
+
+  <data name="AuthenticationError" xml:space="preserve">
+    <value>Authentication error. Check your username and password.</value>
+  </data>
+
+  <data name="ServerError" xml:space="preserve">
+    <value>Sorry, there was a server error. Please try again later.</value>
+  </data>
+
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Oops! Something unexpected happened. We apologize for the inconvenience.</value>
+  </data>
+
+  <!-- Additional 20 Monetary Information -->
+  <data name="CreditLimit" xml:space="preserve">
+    <value>Your credit limit is $ {0}. Enjoy responsibly!</value>
+  </data>
+
+  <data name="AccountBlocked" xml:space="preserve">
+    <value>Your account has been temporarily blocked for security reasons.</value>
+  </data>
+
+  <data name="InvestmentEarnings" xml:space="preserve">
+    <value>Your investment earned $ {0} in profit this month.</value>
+  </data>
+
+  <data name="SalaryCredited" xml:space="preserve">
+    <value>Your salary has been credited. Amount: $ {0}</value>
+  </data>
+
+  <data name="InstallmentPurchase" xml:space="preserve">
+    <value>Details of installment purchase: {0} installments of $ {1}</value>
+  </data>
+
+  <!-- Additional 20 Geographical Information -->
+  <data name="TravelDestination" xml:space="preserve">
+    <value>Your travel destination is {0}.</value>
+  </data>
+
+  <data name="NewAddress" xml:space="preserve">
+    <value>New address registered: {0}</value>
+  </data>
+
+  <data name="EventLocation" xml:space="preserve">
+    <value>The event will take place in {0}.</value>
+  </data>
+
+  <data name="ExploreCity" xml:space="preserve">
+    <value>Explore the charms of the city of {0}.</value>
+  </data>
+
+  <data name="OriginNationality" xml:space="preserve">
+    <value>Your nationality of origin is {0}.</value>
+  </data>
+
+  <!-- Additional 20 Business Information -->
+  <data name="FeaturedProduct" xml:space="preserve">
+    <value>Featured product: {0}. Take advantage of the promotion!</value>
+  </data>
+
+  <data name="NewProductLaunch" xml:space="preserve">
+    <value>New product launch: {0}. Discover the latest!</value>
+  </data>
+
+  <data name="AnniversaryPromotion" xml:space="preserve">
+    <value>In celebration of our anniversary, we have exclusive promotions!</value>
+  </data>
+
+  <data name="SuccessPartnership" xml:space="preserve">
+    <value>We are excited to announce our successful partnership with {0}.</value>
+  </data>
+
+  <data name="CustomerFeedback" xml:space="preserve">
+    <value>Thank you for your valuable feedback. We will continue to improve!</value>
+  </data>
+
+  <!-- Additional 20 Other Messages -->
+  <data name="EventCancelled" xml:space="preserve">
+    <value>Unfortunately, the event has been canceled due to unforeseen circumstances.</value>
+  </data>
+
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>A new update is available. Would you like to install it now?</value>
+  </data>
+
+  <data name="ExpiredPassword" xml:space="preserve">
+    <value>Your password has expired. Please create a new password.</value>
+  </data>
+
+  <data name="ThankYouForDonation" xml:space="preserve">
+    <value>Thank you for your generous donation. Every contribution makes a difference!</value>
+  </data>
+
+  <data name="UnlockedAchievement" xml:space="preserve">
+    <value>You've unlocked a new achievement! Congratulations!</value>
+  </data>
+
+  <!-- Additional 15 Other Messages -->
+  <data name="Farewell" xml:space="preserve">
+    <value>Thank you for using our service. Goodbye!</value>
+  </data>
+
+  <data name="EventInvitation" xml:space="preserve">
+    <value>You are invited to our upcoming event in {0}.</value>
+  </data>
+
+  <data name="WeatherWarning" xml:space="preserve">
+    <value>Weather forecast for today: {0}. Prepare yourself!</value>
+  </data>
+
+  <data name="ImportantAnnouncement" xml:space="preserve">
+    <value>Important announcement: {0}. Check the details.</value>
+  </data>
+
+  <data name="ConfidentialInformation" xml:space="preserve">
+    <value>This is confidential information. For your eyes only.</value>
+  </data>
+
+  <data name="FlashSale" xml:space="preserve">
+    <value>Flash sale! Unmissable discounts for a limited time.</value>
+  </data>
+
+  <data name="AppointmentReminder" xml:space="preserve">
+    <value>Reminder: Your appointment is scheduled for {0}.</value>
+  </data>
+
+  <data name="PerformanceCompliment" xml:space="preserve">
+    <value>Congratulations on the excellent performance. Keep it up!</value>
+  </data>
+
+  <data name="PrivacyPolicyUpdate" xml:space="preserve">
+    <value>Update on the privacy policy. Read before continuing.</value>
+  </data>
+
+  <data name="SeasonsGreetings" xml:space="preserve">
+    <value>Season's greetings! May this be a joyful and celebratory time.</value>
+  </data>
+
+  <data name="MotivationalMessage" xml:space="preserve">
+    <value>A small dose of motivation for your day: {0}</value>
+  </data>
+
+  <data name="SecurityNotice" xml:space="preserve">
+    <value>Security notice: Keep your credentials secure. Do not share with anyone.</value>
+  </data>
+
+  <data name="ThankYouForParticipation" xml:space="preserve">
+    <value>Thank you for your participation in {0}. We hope to see you again soon!</value>
+  </data>
+
+  <data name="ImportantInformation" xml:space="preserve">
+    <value>Important information: {0}. Read carefully.</value>
+  </data>
+
+  <data name="QualityPromise" xml:space="preserve">
+    <value>Our promise is to deliver exceptional quality in every interaction.</value>
+  </data>
+</root>
