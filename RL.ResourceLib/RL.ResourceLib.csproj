@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>rvlyra.resources</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Ruben Lyra</Authors>
+    <Description>Conjunto de recursos multilíngues para aplicativos .NET.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Conjunto de recursos multilíngues para aplicativos .NET.</PackageReleaseNotes>
+    <PackageTags>rvlyra resources</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
