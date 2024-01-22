@@ -1,4 +1,4 @@
-**Passo a Passo para Criar e Empacotar o Projeto "rvlyra.resources" - Versão 0.1.0**
+# Passo a Passo para Criar e Empacotar o Projeto "rvlyra.resources" - Versão 0.1.0
 
 **1. Inicialização do Projeto:**
    - Abra o terminal e navegue até o diretório onde deseja criar o projeto.
