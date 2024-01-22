@@ -1,5 +1,10 @@
 # Passo a Passo para Criar e Empacotar o Projeto "rvlyra.resources" - Versão 0.1.0
 
+## RerÊncias:
+- [ ] [packing-a-license-expression-or-a-license-file](https://learn.microsoft.com/pt-br/nuget/reference/msbuild-targets#packing-a-license-expression-or-a-license-file)
+- [ ] [nuspec#license](https://learn.microsoft.com/pt-br/nuget/reference/nuspec#license)
+- [ ] [criadno o readme corretamente](https://learn.microsoft.com/pt-br/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli)
+
 **1. Inicialização do Projeto:**
    - Abra o terminal e navegue até o diretório onde deseja criar o projeto.
    - Execute o comando para criar um novo projeto de biblioteca de classes:
