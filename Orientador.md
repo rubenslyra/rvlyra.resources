@@ -94,3 +94,86 @@
    - Atualize o arquivo `README.md` com as notas da versão.
 
 Este passo a passo deve ajudar a criar, empacotar e publicar a versão 0.1.0 do seu projeto "rvlyra.resources". Se tiver dúvidas ou precisar de mais orientações, estou à disposição!
+
+
+----
+
+# Testes 
+
+Para facilitar a criação de recursos usando a CLI do .NET e ajustar os formatos para o VS Code reconhecer, vamos usar o comando `dotnet resource`.
+
+**1. Criar Recursos com o Comando `dotnet resource`:**
+```bash
+dotnet resource generate -t "Mensagens" -l pt-BR
+dotnet resource generate -t "Messages" -l en-US
+dotnet resource generate -t "Mensajes" -l es-ES
+```
+
+Isso criará automaticamente arquivos `.resx` com os nomes corretos e adicionará as entradas iniciais para cada idioma. Os arquivos gerados estarão na pasta `Resources` com os seguintes nomes:
+- `Mensagens.pt-BR.resx`
+- `Messages.en-US.resx`
+- `Mensajes.es-ES.resx`
+
+**2. Estrutura de Arquivos após a Execução:**
+```bash
+rvlyra.resources
+|-- Resources
+|   |-- pt-BR
+|   |   `-- Mensagens.pt-BR.resx
+|   |-- en-US
+|   |   `-- Messages.en-US.resx
+|   |-- es-ES
+|       `-- Mensajes.es-ES.resx
+|-- rvlyra.resources.csproj
+|-- Mensagens.cs
+|-- Messages.cs
+```
+
+**3. Adicionar Testes:**
+```bash
+dotnet new xunit -n rvlyra.resources.tests
+cd rvlyra.resources.tests
+dotnet add reference ../rvlyra.resources/rvlyra.resources.csproj
+```
+
+Crie arquivos de teste em `rvlyra.resources.tests` para garantir que os recursos estejam sendo carregados corretamente e as mensagens estejam acessíveis.
+
+**Exemplo de Teste (usando Xunit):**
+```csharp
+// Arquivo: rvlyra.resources.tests/MensagensTests.cs
+using Xunit;
+using rvlyra.resources;
+
+public class MensagensTests
+{
+    [Fact]
+    public void DeveRetornarBoasVindasEmPortugues()
+    {
+        var mensagem = Mensagens.BoasVindas;
+        Assert.Equal("Bem-vindo ao nosso sistema!", mensagem);
+    }
+
+    [Fact]
+    public void ShouldReturnWelcomeInEnglish()
+    {
+        var message = Messages.Welcome;
+        Assert.Equal("Welcome to our system!", message);
+    }
+
+    [Fact]
+    public void DeberiaRetornarBienvenidoEnEspanol()
+    {
+        var mensaje = Mensajes.Bienvenido;
+        Assert.Equal("Bienvenido a nuestro sistema!", mensaje);
+    }
+}
+```
+
+**4. Executar Testes:**
+```bash
+dotnet test
+```
+
+Isso executará os testes, garantindo que os recursos estejam sendo gerados corretamente e que as mensagens estejam acessíveis em cada idioma.
+
+Essas etapas devem ajudar a criar, testar e organizar recursos multilíngues para seu projeto. Se precisar de mais assistência ou ajustes, estou à disposição!
